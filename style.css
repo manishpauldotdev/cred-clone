@@ -1,0 +1,17 @@
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Gilroy-Heavy", sans-serif;
+  font-family: "Gilroy-Light", sans-serif;
+  font-family: "Gilroy-Medium", sans-serif; */
+  font-family: "Gilroy-Regular", sans-serif;
+}
