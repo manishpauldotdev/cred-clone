@@ -15,3 +15,90 @@ body {
   font-family: "Gilroy-Medium", sans-serif; */
   font-family: "Gilroy-Regular", sans-serif;
 }
+
+a {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* HEADER */
+.header {
+  background-image: url("./assets/hero-bg.webp");
+  color: #fff;
+  min-height: 100vh;
+  padding: 60px 200px 200px;
+}
+
+/* HEADER > NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 49px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+/* HEADER > BANNER */
+.banner {
+  background-color: #272727;
+  width: 100vw;
+  padding: 30px;
+  transform: translate(-14.8%);
+  text-align: center;
+  margin: 60px auto;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 28px;
+}
+
+.header-cta {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 96px;
+}
+
+h4 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 24px;
+  margin: 50px auto;
+}
+
+.btn {
+  font-family: "Gilroy-Medium", sans-serif;
+  width: 250px;
+  height: 60px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn span {
+  font-size: 18px;
+  font-weight: bold;
+}
