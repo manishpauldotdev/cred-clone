@@ -200,3 +200,20 @@ a {
 .information .btn {
   margin-top: 25px;
 }
+
+/* BRANDS */
+.brands {
+  padding: 60px 150px;
+  min-height: 200px;
+  font-family: "Gilroy-Medium", sans-serif;
+}
+
+.brand-img {
+  height: 50px;
+  width: 100%;
+  background-image: url("./assets/brands-desktop.png");
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+}
