@@ -73,19 +73,18 @@ a {
   justify-content: center;
 }
 
-h1 {
+.header-cta h1 {
   font-family: "Gilroy-Bold", sans-serif;
   font-size: 96px;
 }
 
-h4 {
+.header-cta h4 {
   font-family: "Gilroy-Bold", sans-serif;
   font-size: 24px;
   margin: 50px auto;
 }
 
 .btn {
-  font-family: "Gilroy-Medium", sans-serif;
   width: 250px;
   height: 60px;
   border: 1px solid #fff;
@@ -99,6 +98,7 @@ h4 {
 }
 
 .btn span {
+  font-family: "Gilroy-Medium", sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
@@ -162,4 +162,41 @@ h4 {
   right: 25%;
   transform: translateX(50%);
   transition: transform 1s ease-in-out;
+}
+
+/* REWARDS */
+.rewards {
+  background: url("./assets/deserve-more-bg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 200px 150px 200px;
+  color: #fff;
+}
+
+.information {
+  max-width: 60%;
+}
+
+.information h2 {
+  font-size: 96px;
+  line-height: 1;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+
+.information h4 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.information p {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.information .btn {
+  margin-top: 25px;
 }
