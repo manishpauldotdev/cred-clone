@@ -85,7 +85,7 @@ a {
 }
 
 .btn {
-  width: 250px;
+  width: 300px;
   height: 60px;
   border: 1px solid #fff;
   border-radius: 50px;
@@ -95,6 +95,7 @@ a {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  padding: 20px 40px;
 }
 
 .btn span {
@@ -215,5 +216,42 @@ a {
   background-position: center center;
   background-size: 100%;
   background-repeat: no-repeat;
+  margin-top: 40px;
+}
+
+/* Experience */
+.experience {
+  background-image: url(./assets/money-matters-bg.webp);
+  background-position: center center;
+  background-size: cover;
+  height: 800px;
+  padding: 200px 150px 200px;
+  color: #fff;
+}
+
+.experience h2 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 96px;
+  line-height: 1;
+}
+
+.experience h4 {
+  margin-top: 20px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 32px;
+}
+
+.experience-info {
+  width: 62%;
+}
+
+.experience p {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.experience .btn {
   margin-top: 40px;
 }
