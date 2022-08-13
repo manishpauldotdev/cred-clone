@@ -326,3 +326,72 @@ a {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
+/* DOWNLOAD */
+.download {
+  min-height: 800px;
+  background: url("./assets/hero-bg.webp");
+  background-size: cover;
+  color: #fff;
+  padding: 100px 200px;
+}
+
+.store {
+  display: flex;
+  gap: 100px;
+  padding: 50px;
+}
+
+.app-store {
+  width: 50%;
+}
+
+.rating-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.store h2 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 144px;
+}
+
+.store h4 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.app-store .rating-img {
+  width: 200px;
+  margin: 40px 0;
+}
+
+.app-store .rating-img img {
+  width: 100%;
+}
+
+.play-store .rating-img {
+  width: 200px;
+  margin: 40px 0;
+}
+
+.play-store .rating-img img {
+  width: 100%;
+}
+
+.play-store {
+  width: 50%;
+}
+
+.store .btn {
+  height: 70px;
+  width: 350px;
+}
+
+.btn img {
+  width: 40px;
+  margin-right: 20px;
+}
