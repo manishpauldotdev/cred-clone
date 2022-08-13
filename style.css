@@ -58,7 +58,7 @@ a {
   background-color: #272727;
   width: 100vw;
   padding: 30px;
-  transform: translate(-14.8%);
+  transform: translate(-15.9%);
   text-align: center;
   margin: 60px auto;
   font-family: "Gilroy-Bold", sans-serif;
@@ -253,5 +253,41 @@ a {
 }
 
 .experience .btn {
+  margin-top: 40px;
+}
+
+/* SECURITY */
+.security {
+  min-height: 800px;
+  background-image: url("./assets/security-bg.webp");
+  background-size: cover;
+  color: #fff;
+  padding: 200px 150px 200px;
+}
+
+.security-content {
+  width: 60%;
+}
+
+.security-content h2 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 96px;
+  line-height: 1;
+}
+
+.security-content h4 {
+  margin-top: 20px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 32px;
+}
+
+.security-content p {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.security-content .btn {
   margin-top: 40px;
 }
