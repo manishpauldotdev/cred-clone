@@ -395,3 +395,45 @@ a {
   width: 40px;
   margin-right: 20px;
 }
+
+/* FAQ */
+.faq {
+  background: #272727;
+  padding: 100px 200px;
+  color: #fff;
+}
+
+.faq .qa {
+  margin-bottom: 50px;
+}
+
+.faq .qa h4 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.faq .qa p {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.faq .qa ul {
+  list-style-type: none;
+}
+
+.faq .qa ul li {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.faq .qa a {
+  text-decoration: underline;
+  font-weight: 200;
+}
+
+hr {
+  margin-bottom: 50px;
+}
